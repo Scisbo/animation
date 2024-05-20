@@ -1,5 +1,4 @@
 
-
 import './App.scss';
 import Header from '../Header/Header';
 import Card from '../Card/Card';

@@ -54,7 +54,7 @@ const Circle = ({ bgColor, left = 'none', top = 'none', width, height, right = '
 
 const Circles = () => {
     return (
-        <div style={{ position: "relative", maxWidth: '648px', height: '100vh', boxSizing: "content-box" }}>
+        <div style={{ position: "relative", maxWidth: '648px', width: '100%', height: '900px', boxSizing: "content-box" }}>
             <Circle bgColor="#40b26b" left="140px" top="100px" width="80px" height="80px" />
             <Circle bgColor="#F9C518" left="calc(100% - 200px)" top="50px" width="200px" height="200px" />
             <Circle bgColor="#F8922B" left="150px" top="280px" width="100px" height="100px" />
