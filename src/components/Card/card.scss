@@ -32,6 +32,9 @@
         object-fit: cover;
         object-position: center;
         will-change: transform;
+        @media (max-width: 600px){
+            object-fit: contain;      
+        }
     }
 
     // .card__image-text

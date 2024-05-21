@@ -55,17 +55,17 @@ const Circle = ({ bgColor, left = 'none', top = 'none', width, height, right = '
 const Circles = () => {
     return (
         <div style={{ position: "relative", maxWidth: '648px', width: '100%', height: '900px', boxSizing: "content-box" }}>
-            <Circle bgColor="#40b26b" left="140px" top="100px" width="80px" height="80px" />
-            <Circle bgColor="#F9C518" left="calc(100% - 200px)" top="50px" width="200px" height="200px" />
-            <Circle bgColor="#F8922B" left="150px" top="280px" width="100px" height="100px" />
-            <Circle bgColor="black" left="calc(100% - 140px)" top="320px" width="50px" height="50px" borderWidth="20px" />
-            <Circle bgColor="grey" left="calc(100% - 30px)" top="350px" width="30px" height="30px" borderWidth="30px" />
-            <Circle bgColor="#CD5CE7" left="90px" top="450px" width="80px" height="80px" borderWidth="30px" />
-            <Circle bgColor="#3AB8D1" left="250px" top="420px" width="200px" height="200px" borderWidth="30px" />
-            <Circle bgColor="#5D7CF9" left="calc(100% - 100px)" top="500px" width="100px" height="100px" borderWidth="20px" />
-            <Circle bgColor="#F26497" left="calc(100% - 170px)" top="650px" width="70px" height="70px" borderWidth="30px" />
-            <Circle bgColor="#94D82D" left="150px" top="700px" width="200px" height="200px" borderWidth="20px" />
-            <Circle bgColor="#4AA9FD" left="calc(100% - 50px)" top="750px" width="50px" height="50px" borderWidth="20px" />
+            <Circle bgColor="#40b26b" left="90px" top="100px" width="80px" height="80px" />
+            <Circle bgColor="#F9C518" left="calc(100% - 250px)" top="50px" width="200px" height="200px" />
+            <Circle bgColor="#F8922B" left="100px" top="280px" width="100px" height="100px" />
+            <Circle bgColor="black" left="calc(100% - 190px)" top="320px" width="50px" height="50px" borderWidth="20px" />
+            <Circle bgColor="grey" left="calc(100% - 80px)" top="350px" width="30px" height="30px" borderWidth="30px" />
+            <Circle bgColor="#CD5CE7" left="40px" top="450px" width="80px" height="80px" borderWidth="30px" />
+            <Circle bgColor="#3AB8D1" left="200px" top="420px" width="200px" height="200px" borderWidth="30px" />
+            <Circle bgColor="#5D7CF9" left="calc(100% - 150px)" top="500px" width="100px" height="100px" borderWidth="20px" />
+            <Circle bgColor="#F26497" left="calc(100% - 220px)" top="650px" width="70px" height="70px" borderWidth="30px" />
+            <Circle bgColor="#94D82D" left="1.0px" top="700px" width="200px" height="200px" borderWidth="20px" />
+            <Circle bgColor="#4AA9FD" left="calc(100% - 100px)" top="750px" width="50px" height="50px" borderWidth="20px" />
         </div>
     );
 };
