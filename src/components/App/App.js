@@ -3,8 +3,8 @@ import './App.scss';
 import Header from '../Header/Header';
 import Card from '../Card/Card';
 
-import img1 from '../../assets/peoples/01.jpg';
-import img2 from '../../assets/peoples/02.jpg';
+import img1 from '../../assets/photo1.png';
+import img2 from '../../assets/photo2.png';
 import img3 from '../../assets/peoples/03.jpg';
 import img4 from '../../assets/peoples/04.jpg';
 import img5 from '../../assets/peoples/05.jpg';
