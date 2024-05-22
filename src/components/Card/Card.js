@@ -27,7 +27,9 @@ const Card = ({ outside, text, decor, phrase, img }) => {
 
     return (
         <div className={clazz}>
-            <span className="card__decor">{decor}</span>
+            <div className="card__decor">
+                {decor}
+            </div>
             <div className="card__image-container">
                 <motion.img
                     ref={ref}

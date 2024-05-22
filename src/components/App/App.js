@@ -1,7 +1,8 @@
 
-import './App.scss';
 import Header from '../Header/Header';
 import Card from '../Card/Card';
+import ContactsOutlinedIcon from '@mui/icons-material/ContactsOutlined';
+import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
 
 import img1 from '../../assets/photo1.png';
 import img2 from '../../assets/photo2.png';
@@ -12,7 +13,10 @@ import img6 from '../../assets/peoples/06.jpg';
 import img7 from '../../assets/peoples/07.jpg';
 import img8 from '../../assets/peoples/08.jpg';
 
+import './App.scss';
+
 function App() {
+
   return (
     <div className="wrapper">
       <div className="App">
@@ -22,17 +26,17 @@ function App() {
           <Card
             outside={false}
             text={"Little trees and bushes grow however makes them happy."}
-            decor={"01"}
-            phrase={"Oh"}
+            decor={<ContactsOutlinedIcon style={{ fontSize: '550px' }} />}
+            phrase={<ContactsOutlinedIcon style={{ fontSize: '250px' }} />}
             img={img1} />
           <Card
             outside={true}
             text={"We don't have to be committed. We are just playing here."}
-            decor={"02"}
-            phrase={"Ro"}
+            decor={<ChatOutlinedIcon style={{ fontSize: '550px' }} />}
+            phrase={<ChatOutlinedIcon style={{ fontSize: '250px' }} />}
             img={img2}
           />
-          <Card outside={false}
+          {/* <Card outside={false}
             text={"I thought today we would do a happy little picture."}
             decor={"03"}
             phrase={"Nj"}
@@ -67,7 +71,7 @@ function App() {
             decor={"08"}
             phrase={"Sd"}
             img={img8}
-          />
+          /> */}
           {/* </ScrollContainer> */}
         </main>
       </div>
