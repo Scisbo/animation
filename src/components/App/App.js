@@ -1,4 +1,4 @@
-
+import SmoothScroll from '../SmoothScroll.tsx';
 import Header from '../Header/Header';
 import Card from '../Card/Card';
 import ContactsOutlinedIcon from '@mui/icons-material/ContactsOutlined';
@@ -18,25 +18,28 @@ import './App.scss';
 function App() {
 
   return (
-    <div className="wrapper">
-      <div className="App">
-        <Header />
-        <main className="main">
+    <SmoothScroll>
+      <div className="wrapper">
 
-          <Card
-            outside={false}
-            text={"Little trees and bushes grow however makes them happy."}
-            decor={<ContactsOutlinedIcon style={{ fontSize: '550px' }} />}
-            phrase={<ContactsOutlinedIcon style={{ fontSize: '150px' }} />}
-            img={img1} />
-          <Card
-            outside={true}
-            text={"We don't have to be committed. We are just playing here."}
-            decor={<ChatOutlinedIcon style={{ fontSize: '550px' }} />}
-            phrase={<ChatOutlinedIcon style={{ fontSize: '150px' }} />}
-            img={img2}
-          />
-          {/* <Card outside={false}
+        <div className="App">
+
+          <Header />
+          <main className="main">
+
+            <Card
+              outside={false}
+              text={"Little trees and bushes grow however makes them happy."}
+              decor={<ContactsOutlinedIcon style={{ fontSize: '550px' }} />}
+              phrase={<ContactsOutlinedIcon style={{ fontSize: '150px' }} />}
+              img={img1} />
+            <Card
+              outside={true}
+              text={"We don't have to be committed. We are just playing here."}
+              decor={<ChatOutlinedIcon style={{ fontSize: '550px' }} />}
+              phrase={<ChatOutlinedIcon style={{ fontSize: '150px' }} />}
+              img={img2}
+            />
+            {/* <Card outside={false}
             text={"I thought today we would do a happy little picture."}
             decor={"03"}
             phrase={"Nj"}
@@ -73,9 +76,12 @@ function App() {
             img={img8}
           /> */}
 
-        </main>
+          </main>
+
+        </div>
+
       </div>
-    </div>
+    </SmoothScroll>
   );
 }
 
