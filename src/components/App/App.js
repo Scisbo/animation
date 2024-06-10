@@ -22,18 +22,18 @@ function App() {
       <div className="App">
         <Header />
         <main className="main">
-          {/* <ScrollContainer> */}
+
           <Card
             outside={false}
             text={"Little trees and bushes grow however makes them happy."}
             decor={<ContactsOutlinedIcon style={{ fontSize: '550px' }} />}
-            phrase={<ContactsOutlinedIcon style={{ fontSize: '250px' }} />}
+            phrase={<ContactsOutlinedIcon style={{ fontSize: '150px' }} />}
             img={img1} />
           <Card
             outside={true}
             text={"We don't have to be committed. We are just playing here."}
             decor={<ChatOutlinedIcon style={{ fontSize: '550px' }} />}
-            phrase={<ChatOutlinedIcon style={{ fontSize: '250px' }} />}
+            phrase={<ChatOutlinedIcon style={{ fontSize: '150px' }} />}
             img={img2}
           />
           {/* <Card outside={false}
@@ -72,7 +72,7 @@ function App() {
             phrase={"Sd"}
             img={img8}
           /> */}
-          {/* </ScrollContainer> */}
+
         </main>
       </div>
     </div>
