@@ -10,13 +10,14 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "framer-motion": "^11.1.9",
+    "framer-motion": "^11.2.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.10.2",
     "react-scripts": "5.0.1",
     "resize-observer-polyfill": "^1.5.1",
     "sass": "^1.77.1",
+    "scroller-motion": "^1.2.3",
     "smooth-scrollbar": "^8.8.4",
     "web-vitals": "^2.1.4"
   },
@@ -43,8 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "typescript": "^5.4.5"
   }
 }

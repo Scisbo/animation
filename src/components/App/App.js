@@ -1,8 +1,8 @@
-import SmoothScroll from '../SmoothScroll.tsx';
 import Header from '../Header/Header';
 import Card from '../Card/Card';
 import ContactsOutlinedIcon from '@mui/icons-material/ContactsOutlined';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
+import { ScrollerMotion } from 'scroller-motion'
 
 import img1 from '../../assets/photo1.png';
 import img2 from '../../assets/photo2.png';
@@ -18,14 +18,13 @@ import './App.scss';
 function App() {
 
   return (
-    <SmoothScroll>
+    <ScrollerMotion>
       <div className="wrapper">
 
         <div className="App">
 
           <Header />
           <main className="main">
-
             <Card
               outside={false}
               text={"Little trees and bushes grow however makes them happy."}
@@ -81,7 +80,7 @@ function App() {
         </div>
 
       </div>
-    </SmoothScroll>
+    </ScrollerMotion>
   );
 }
 
