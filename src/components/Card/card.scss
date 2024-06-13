@@ -6,12 +6,12 @@
     // .card__decor
 
     &__decor {
-        opacity: 0.03;
-        font-size: 550px;
+        opacity: 0.03; 
         position: absolute;
         top: -200px;
         right: -200px;
         line-height: 1;
+        font-size: 550px;
     }
 
     // .card__image-container
@@ -32,6 +32,9 @@
         object-fit: cover;
         object-position: center;
         will-change: transform;
+        @media (max-width: 600px){
+            object-fit: contain;      
+        }
     }
 
     // .card__image-text
@@ -57,19 +60,16 @@
             font-size: 100px;  
             bottom: -230px;
         }
-        @media (max-width: 660px){
-            display: none;
-        }
     }
 }
 
 .card-right {
-    margin-left: 1000px;
+    margin-left: 500px;
     @media (max-width: 1500px){
-        margin-left: 700px;      
+        margin-left: 250px;      
     }
     @media (max-width: 1200px){
-        margin-left: 400px;      
+        margin-left: 100px;      
     }
     @media (max-width: 991.98px){
         margin-left: 0;      

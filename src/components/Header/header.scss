@@ -1,5 +1,7 @@
 .header {
-    margin-bottom: 300px;
+    margin-bottom: 400px;
+    display: flex;
+    justify-content: flex-end;
     &__title {
         font-size: 26px;
     }

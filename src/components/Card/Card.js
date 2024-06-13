@@ -16,7 +16,7 @@ const Card = ({ outside, text, decor, phrase, img }) => {
         }
     }, [ref]);
 
-    const scale = useTransform(scrollY, [elementTop - window.innerHeight, elementBottom], [1, 1.5]);
+    const scale = useTransform(scrollY, [elementTop - window.innerHeight, elementBottom], [1, 1.4]);
     const translateY = useTransform(scrollY, [elementTop - window.innerHeight, elementBottom], ['0%', '-250%']);
 
     let clazz = 'card';
@@ -27,7 +27,9 @@ const Card = ({ outside, text, decor, phrase, img }) => {
 
     return (
         <div className={clazz}>
-            <span className="card__decor">{decor}</span>
+            <div className="card__decor">
+                {decor}
+            </div>
             <div className="card__image-container">
                 <motion.img
                     ref={ref}
